@@ -3,13 +3,17 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches:
-      - main  # deploy only when pushing to main
+      - main
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
