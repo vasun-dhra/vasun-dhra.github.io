@@ -9,7 +9,7 @@
 
     <p>
         Please view my curriculum vitae here: 
-        <a href="resume.pdf" target="_blank">View CV (PDF)</a>
+        <a href="Unige_CV.pdf" target="_blank">View CV (PDF)</a>
     </p>
 
     </body>
