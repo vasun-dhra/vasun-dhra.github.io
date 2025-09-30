@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vasundhra's Professional Profile</title>
+    <title>Vasundhra></title>
     
     <style>
         /* Basic styles for the entire page */
@@ -29,25 +29,11 @@
             border-radius: 8px; 
         }
 
-        /* --- Name Header Style --- */
-        .main-name-header {
-            font-size: 2.5em; 
-            color: #3498db;
-            text-align: center;
-            text-transform: lowercase; /* Optional: If you prefer the lowercase look from the image */
-            padding-bottom: 5px;
-            border-bottom: 2px dashed #3498db; /* Dashed line for effect */
-            width: fit-content; /* Line only under the text */
-            margin: 30px auto 20px auto; /* Center and space it out */
-            font-weight: 400;
-        }
-        
-        /* General H1 style is now unused, but we'll remove its border just in case */
+        /* Styling for the main header */
         h1 {
             color: #2c3e50;
             text-align: center;
-            /* Important Change: Remove the border that was previously here */
-            border-bottom: none; 
+            border-bottom: 2px solid #3498db;
             padding-bottom: 10px;
             margin-bottom: 30px;
             font-weight: 300;
@@ -57,9 +43,7 @@
         h2 {
             color: #34495e;
             margin-top: 25px;
-            font-weight: 600; /* Bolded for better visual hierarchy */
-            border-bottom: 1px solid #eee; /* Subtler accent line for the section titles */
-            padding-bottom: 5px;
+            font-weight: 400;
         }
 
         /* Styling for the paragraphs (descriptions) */
@@ -70,17 +54,17 @@
 
         /* Styling for the photo container */
         .photo-container {
-            text-align: center; 
+            text-align: center; /* Center the image */
             margin-bottom: 30px;
         }
 
         /* Styling for the profile photo */
         .profile-photo {
-            width: 150px; 
+            width: 150px; /* Set a fixed size */
             height: 150px;
-            border-radius: 50%; 
-            object-fit: cover; 
-            border: 4px solid #3498db;
+            border-radius: 50%; /* Makes the image perfectly round */
+            object-fit: cover; /* Ensures the image covers the area without stretching */
+            border: 4px solid #3498db; /* Blue border */
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
         }
 
@@ -101,22 +85,21 @@
     </style>
 </head>
 <body>
-    
-    <h1 class="main-name-header">vasun-dhra</h1>
-
     <div class="container">
         
         <div class="photo-container">
             <img src="photo.jpeg" alt="Profile Picture" class="profile-photo">
         </div>
         
-        <h1>My Professional Documents</h1> <h2>Curriculum Vitae</h2>
+        <h1>Vasundhra</h1>
+
+        <h2>Curriculum Vitae</h2>
         <p>
             Please view my latest professional curriculum vitae here: 
             <a href="Unige_CV.pdf" target="_blank">View CV (PDF)</a>
         </p>
 
-        <hr style="border: none; border-top: 1px solid #ddd; margin: 20px 0;"> 
+        <hr> 
 
         <h2>Publications</h2>
         <p>
